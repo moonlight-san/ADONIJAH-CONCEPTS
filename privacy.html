@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Adonijah Global Concept</title>
+  <meta name="description" content="Privacy policy and website terms for Adonijah Global Concept LTD." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Adonijah Global Concept" />
+  <meta property="og:title" content="Privacy Policy | Adonijah Global Concept" />
+  <meta property="og:image" content="https://YOURDOMAIN.com/logo.png" />
+  <meta name="theme-color" content="#050f0a" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2214%22%20fill%3D%22%230a1f14%22/%3E%3Cg%20transform%3D%22translate%28-18.5%20-7.75%29%20scale%280.1%29%22%20fill%3D%22%236ee7a8%22%3E%3Crect%20x%3D%22345%22%20y%3D%22278%22%20width%3D%2232%22%20height%3D%2255%22/%3E%3Cpath%20d%3D%22M265%20411%20L458%20242%20L640%20411%20L580%20411%20L458%20297%20L330%20411%20Z%22/%3E%3Cpath%20d%3D%22M512%20240%20L573%20240%20L745%20411%20L687%20411%20Z%22/%3E%3Cpath%20d%3D%22M332%20420%20L365%20420%20L365%20517%20L653%20517%20L653%20555%20L332%20550%20Z%22/%3E%3Crect%20x%3D%22421%22%20y%3D%22407%22%20width%3D%2236%22%20height%3D%2236%22/%3E%3Crect%20x%3D%22463%22%20y%3D%22407%22%20width%3D%2236%22%20height%3D%2236%22/%3E%3Crect%20x%3D%22421%22%20y%3D%22448%22%20width%3D%2236%22%20height%3D%2236%22/%3E%3Crect%20x%3D%22463%22%20y%3D%22448%22%20width%3D%2236%22%20height%3D%2236%22/%3E%3C/g%3E%3C/svg%3E" />
+  <link rel="icon" type="image/png" sizes="32x32" href="brand/favicon-32.png" />
+  <link rel="apple-touch-icon" href="brand/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --green-950: #050f0a; --green-900: #0a1f14; --green-800: #0f2e1d; --green-700: #163d28;
+      --green-600: #1e5c3a; --green-500: #2d8a55; --green-400: #3cb371; --green-300: #6ee7a8; --green-200: #a7f3d0;
+      --white: #fff; --off-white: #f4f7f5;
+      --glass: rgba(255,255,255,0.08); --glass-border: rgba(255,255,255,0.14);
+      --radius: 24px; --nav-ease: cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    ::selection { background: rgba(110,231,168,0.28); color: #fff; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif; color: var(--off-white); line-height: 1.65; min-height: 100vh; overflow-x: hidden;
+      background: radial-gradient(900px 520px at 12% -8%, rgba(45,138,85,0.28), transparent 70%),
+                  radial-gradient(800px 480px at 100% 0%, rgba(30,92,58,0.22), transparent 70%), var(--green-950);
+      background-attachment: fixed;
+    }
+    a { color: var(--green-300); }
+    .container { width: min(860px, calc(100% - 32px)); margin: 0 auto; }
+
+    /* NAV – same floating pill as the main page, with only a Back to Home button */
+    header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 14px 0; pointer-events: none; transition: padding 0.45s var(--nav-ease); }
+    header.scrolled { padding: 10px 0; }
+    .nav-shell { width: min(1080px, calc(100% - 28px)); margin: 0 auto; pointer-events: auto; }
+    .nav {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      height: 60px; padding: 0 8px 0 16px; border-radius: 999px;
+      background: rgba(10,31,20,0.38); border: 1px solid rgba(255,255,255,0.12);
+      -webkit-backdrop-filter: blur(24px) saturate(180%); backdrop-filter: blur(24px) saturate(180%);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.18), inset 0 1px 0 rgba(255,255,255,0.08);
+      transition: height 0.45s var(--nav-ease), background 0.45s var(--nav-ease), box-shadow 0.45s var(--nav-ease);
+    }
+    header.scrolled .nav { height: 54px; background: rgba(6,18,12,0.74); box-shadow: 0 16px 44px rgba(0,0,0,0.42), inset 0 1px 0 rgba(255,255,255,0.1); }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--white); min-width: 0; }
+    .logo-mark { width: 54px; height: 36px; flex-shrink: 0; }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
+    .logo-text strong { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; white-space: nowrap; }
+    .logo-text span { font-size: 0.6rem; font-weight: 500; color: var(--green-300); letter-spacing: 0.16em; text-transform: uppercase; }
+    .nav-cta {
+      display: inline-flex; align-items: center; gap: 6px; padding: 9px 18px; border-radius: 999px; white-space: nowrap;
+      background: var(--white); color: var(--green-900); font-size: 0.84rem; font-weight: 600; text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .nav-cta:hover { background: var(--green-200); }
+
+    main { padding: 112px 0 40px; }
+    .doc {
+      background: var(--glass); border: 1px solid var(--glass-border); border-radius: var(--radius);
+      -webkit-backdrop-filter: blur(18px); backdrop-filter: blur(18px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.3); padding: 44px 44px 36px;
+    }
+    .eyebrow { display: inline-block; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--green-300); margin-bottom: 10px; }
+    h1 { font-family: 'Playfair Display', serif; font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.2; }
+    .updated { color: rgba(255,255,255,0.5); font-size: 0.85rem; margin: 6px 0 22px; }
+    h2 { font-family: 'Playfair Display', serif; font-size: 1.25rem; margin: 30px 0 8px; color: var(--white); }
+    p, li { color: rgba(255,255,255,0.76); font-size: 0.97rem; }
+    p { margin-bottom: 10px; }
+    ul { margin: 6px 0 10px 22px; }
+    li { margin-bottom: 5px; }
+    strong { color: var(--white); font-weight: 600; }
+
+    footer { padding: 40px 0 32px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 36px; }
+    .footer-inner { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; }
+    .footer-brand { display: flex; align-items: center; gap: 10px; }
+    .footer-brand .logo-mark { width: 51px; height: 34px; }
+    .footer-brand span { font-family: 'Playfair Display', serif; font-weight: 600; }
+    .footer-links a { color: rgba(255,255,255,0.55); text-decoration: none; font-size: 0.88rem; }
+    .footer-links a:hover { color: var(--green-300); }
+    .footer-copy { width: 100%; text-align: center; margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.06); font-size: 0.8rem; color: rgba(255,255,255,0.4); }
+
+    @media (max-width: 760px) {
+      .nav { height: 56px; padding: 0 8px 0 14px; }
+      header.scrolled .nav { height: 52px; }
+      .doc { padding: 28px 22px 24px; }
+    }
+    .short { display: none; }
+    .logo-text strong { overflow: hidden; text-overflow: ellipsis; }
+    @media (max-width: 480px) {
+      .logo-mark { width: 45px; height: 30px; }
+      .logo-text strong { font-size: 0.88rem; }
+      .logo-text span { display: none; }
+      .nav-cta { padding: 8px 14px; font-size: 0.8rem; }
+      .long { display: none; }
+      .short { display: inline; }
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <div class="nav-shell">
+      <nav class="nav" aria-label="Main">
+        <a class="logo" href="index.html" aria-label="Adonijah Global Concept – home">
+          <svg class="logo-mark" viewBox="255 230 500 335" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="pgLogo" gradientUnits="userSpaceOnUse" x1="265" y1="240" x2="745" y2="555">
+                <stop offset="0" stop-color="#8df2bd"/>
+                <stop offset="1" stop-color="#2d8a55"/>
+              </linearGradient>
+            </defs>
+            <g fill="url(#pgLogo)">
+              <rect x="345" y="278" width="32" height="55"/>
+              <path d="M265 411 L458 242 L640 411 L580 411 L458 297 L330 411 Z"/>
+              <path d="M512 240 L573 240 L745 411 L687 411 Z"/>
+              <path d="M332 420 L365 420 L365 517 L653 517 L653 555 L332 550 Z"/>
+              <rect x="421" y="407" width="36" height="36"/><rect x="463" y="407" width="36" height="36"/>
+              <rect x="421" y="448" width="36" height="36"/><rect x="463" y="448" width="36" height="36"/>
+            </g>
+          </svg>
+          <div class="logo-text"><strong>Adonijah Global Concept</strong><span>AGC Ltd</span></div>
+        </a>
+        <a class="nav-cta" href="index.html">
+          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          <span class="long">Back to Home</span><span class="short">Home</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <article class="doc">
+        <span class="eyebrow">Legal</span>
+        <h1>Privacy Policy &amp; Website Terms</h1>
+        <p class="updated">Last updated: 24 October 2026</p>
+
+        <p>This page explains what personal information Adonijah Global Concept LTD collects through this website, how we use it, and your rights. It also sets out a few simple terms for using the site.</p>
+
+        <h2>1. Who we are</h2>
+        <p>Adonijah Global Concept LTD (“AGC”, “we”, “us”) is a private company limited by shares, registered with the Corporate Affairs Commission of Nigeria (RC 9084057). We are responsible for the personal information described here.</p>
+        <p>Email: <a href="mailto:adonijahglobalconcept@gmail.com">adonijahglobalconcept@gmail.com</a><br />WhatsApp / phone: <a href="tel:+2348060605182">+234 806 060 5182</a></p>
+
+        <h2>2. What we collect</h2>
+        <ul>
+          <li><strong>Information you give us:</strong> your name, phone number, email address and the details of your project, when you email us, message us on WhatsApp or call us.</li>
+          <li><strong>Technical data:</strong> this website loads fonts from Google Fonts, so Google receives your IP address and browser details when a page loads. We do not run analytics or advertising trackers on this site at the time of writing.</li>
+        </ul>
+        <p>The contact form does not store your details on our website. When you press <em>Send Message</em>, it opens your email app with your message ready to send. When you use the WhatsApp button, it opens WhatsApp. Nothing reaches us until you press send there.</p>
+
+        <h2>3. How we use your information</h2>
+        <ul>
+          <li>To reply to your enquiry and discuss your project.</li>
+          <li>To prepare consultations and quotations and, if you hire us, to carry out the work.</li>
+          <li>To meet legal, tax and accounting obligations.</li>
+        </ul>
+        <p>We do not sell your personal information, and we do not use it for advertising.</p>
+
+        <h2>4. Our legal basis</h2>
+        <p>Under the Nigeria Data Protection Act 2023, we rely on your consent (when you contact us), steps taken at your request before a contract, performance of a contract, our legitimate interest in running a construction business, and legal obligations.</p>
+
+        <h2>5. Who we share it with</h2>
+        <ul>
+          <li>Service providers that carry our communications and run the website, such as WhatsApp (Meta), Google (Gmail) and our hosting provider.</li>
+          <li>Professionals involved in your project, such as architects, engineers, surveyors and suppliers, only as needed and with your knowledge.</li>
+          <li>Regulators, courts or other authorities where the law requires it.</li>
+        </ul>
+        <p>WhatsApp and Gmail have their own privacy policies.</p>
+
+        <h2>6. How long we keep it</h2>
+        <p>We keep personal information only as long as needed for the purpose it was collected, including any legal, tax or accounting requirement. After that we delete or anonymise it.</p>
+
+        <h2>7. Your rights</h2>
+        <p>You can ask us to give you a copy of your information, correct it, delete it, restrict or object to how we use it, or withdraw your consent at any time. Email us and we will respond within a reasonable time. You also have the right to complain to the Nigeria Data Protection Commission (NDPC).</p>
+
+        <h2>8. Cookies</h2>
+        <p>This site does not use cookies to track you. If we add analytics or advertising tools in future, we will update this page and ask for your consent first.</p>
+
+        <h2>9. Security</h2>
+        <p>We take reasonable steps to protect your information, but no method of sending data over the internet is completely secure.</p>
+
+        <h2>10. Children</h2>
+        <p>This website is for adults. We do not knowingly collect information from anyone under 18.</p>
+
+        <h2>11. Website terms</h2>
+        <ul>
+          <li>A message or chat with us is not a quotation, offer or contract. Prices, timelines and scope are only binding once agreed in a written contract signed by us and you.</li>
+          <li>The AGC name, logo, photos, videos and text belong to Adonijah Global Concept LTD. Please do not copy or reuse them without our permission.</li>
+          <li>We work to keep this site accurate and available, but we do not guarantee it will be error-free or always online, and to the extent allowed by law we are not liable for loss arising from using it.</li>
+          <li>These terms are governed by the laws of the Federal Republic of Nigeria.</li>
+        </ul>
+
+        <h2>12. Changes</h2>
+        <p>We may update this page from time to time. The date at the top shows when it last changed.</p>
+
+        <h2>13. Contact</h2>
+        <p>Questions about this page or your information: <a href="mailto:adonijahglobalconcept@gmail.com">adonijahglobalconcept@gmail.com</a>.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand"><svg class="logo-mark" viewBox="255 230 500 335" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="pgLogo2" gradientUnits="userSpaceOnUse" x1="265" y1="240" x2="745" y2="555">
+                <stop offset="0" stop-color="#8df2bd"/>
+                <stop offset="1" stop-color="#2d8a55"/>
+              </linearGradient>
+            </defs>
+            <g fill="url(#pgLogo2)">
+              <rect x="345" y="278" width="32" height="55"/>
+              <path d="M265 411 L458 242 L640 411 L580 411 L458 297 L330 411 Z"/>
+              <path d="M512 240 L573 240 L745 411 L687 411 Z"/>
+              <path d="M332 420 L365 420 L365 517 L653 517 L653 555 L332 550 Z"/>
+              <rect x="421" y="407" width="36" height="36"/><rect x="463" y="407" width="36" height="36"/>
+              <rect x="421" y="448" width="36" height="36"/><rect x="463" y="448" width="36" height="36"/>
+            </g>
+          </svg><span>Adonijah Global Concept</span></div>
+        <div class="footer-links"><a href="index.html">Back to Home</a></div>
+        <p class="footer-copy">© 2026 Adonijah Global Concept LTD (AGC). All rights reserved. · CAC RC 9084057</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const header = document.getElementById('header');
+    const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 24);
+    window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+  </script>
+</body>
+</html>
